@@ -1,0 +1,132 @@
+/* 清除浮动 */
+
+.clear:after {
+  content: '';
+  display: block;
+  height: 0;
+  overflow: hidden;
+  clear: both;
+}
+
+.clear {
+  zoom: 1;
+}
+
+/* 浮动定义 */
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+ul {
+  li {
+    list-style: none;
+  }
+}
+
+.ta-l {
+  text-align: left;
+}
+
+.ta-c {
+  text-align: center;
+}
+
+.pos-r {
+  position: relative;
+}
+.dis-flex {
+  display: flex;
+}
+.dis-ib {
+  display: inline-block;
+}
+.overflow-h {
+  overflow: hidden;
+}
+
+// 宽高
+.w127 {
+  width: 127px;
+}
+.w130 {
+  width: 130px;
+}
+.w200 {
+  width: 200px;
+}
+.w300 {
+  width: 300px;
+}
+.h150 {
+  height: 150px;
+}
+
+//
+.cur_p {
+  cursor: pointer;
+}
+
+//外边距
+.mt15 {
+  margin-top: 15px;
+}
+
+.must-icon::before {
+  content: "*" !important;
+  color: #f56c6c;
+  position: absolute;
+  top: 8px;
+}
+
+.must-icon2::before {
+  content: "*" !important;
+  color: #f56c6c;
+  position: absolute;
+  top: 8px;
+  left: 28px;
+}
+
+//字体
+.f-24 {
+  font-size: 24px;
+}
+.f-60 {
+  font-size: 60px;
+}
+
+//滚动条样式
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+  background: transparent;
+}
+::-webkit-scrollbar-button {
+  width: 0;
+  height: 0;
+  background: transparent;
+}
+::-webkit-scrollbar-corner,
+ ::-webkit-scrollbar-track:active {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #b0c0d0;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb,
+ ::-webkit-scrollbar-track {
+  background-color: rgba(85, 76, 76, 0.5);
+}
+::-webkit-scrollbar-track,
+ ::-webkit-scrollbar-track:hover {
+  background: transparent;
+}
+
+@textBlue:#00CDFF;
+
+
+
